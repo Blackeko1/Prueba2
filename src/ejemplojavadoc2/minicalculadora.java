@@ -8,7 +8,7 @@ package ejemplojavadoc2;
 
 /* @author eko_c
 * @version 1
- * Nombre: minicalculadora
+ * Nombre: minicalcu
  * Descripcion General:
  * Tiene 2 metodos uno para sacar el valor absoluto y otro para sacar la raiz cuadrada
  */
@@ -16,11 +16,11 @@ package ejemplojavadoc2;
 import static java.lang.Math.abs;
 import static java.lang.Math.sqrt;
 
-public class minicalc {
+public class minicalcu {
     /**
      * constructor vacio de la clase para poder usar los metodos
      */
-    public minicalc(){
+    public minicalcu(){
         
     }
     /**
@@ -46,7 +46,7 @@ public class minicalc {
         // Llamamos a los metodos con un valor
         double x= 7;
         
-        System.out.println(new minicalc().getvalorabsoluto(x));
-        System.out.println(new minicalc().getraizcuadrada(x));
+        System.out.println(new minicalcu().getvalorabsoluto(x));
+        System.out.println(new minicalcu().getraizcuadrada(x));
     }
 }

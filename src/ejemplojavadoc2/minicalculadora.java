@@ -16,11 +16,11 @@ package ejemplojavadoc2;
 import static java.lang.Math.abs;
 import static java.lang.Math.sqrt;
 
-public class minicalcu {
+public class minicalculadora {
     /**
      * constructor vacio de la clase para poder usar los metodos
      */
-    public minicalcu(){
+    public minicalculadora(){
         
     }
     /**
@@ -46,7 +46,7 @@ public class minicalcu {
         // Llamamos a los metodos con un valor
         double x= 7;
         
-        System.out.println(new minicalcu().getvalorabsoluto(x));
-        System.out.println(new minicalcu().getraizcuadrada(x));
+        System.out.println(new minicalculadora().getvalorabsoluto(x));
+        System.out.println(new minicalculadora().getraizcuadrada(x));
     }
 }
